@@ -2,9 +2,7 @@
 
 A light Omarchy theme based on [savq/melange-nvim](https://github.com/savq/melange-nvim), with warm brown text and an ochre accent.
 
-![Melange Light wallpaper](backgrounds/omarchy.png)
-
-*Wallpaper preview, not a desktop screenshot. Resolution: 3840 × 2160.*
+![Melange Light desktop preview](preview.png)
 
 ## Palette
 
@@ -20,7 +18,7 @@ Normal and bright colors follow Melange's upstream light palettes, including its
 
 ## Install
 
-For recent Omarchy releases using `colors.toml`:
+For recent Omarchy releases that generate application configurations from `colors.toml`:
 
 ```sh
 omarchy theme install https://github.com/xvvhang/omarchy-melange-light-theme
@@ -39,10 +37,6 @@ To preserve your current wallpaper when switching:
 ```sh
 OMARCHY_THEME_SKIP_BACKGROUND=1 omarchy theme set melange-light
 ```
-
-## Neovim
-
-Omarchy generates the Neovim configuration from `colors.toml`; no theme-specific Lua configuration or plugin installation is required.
 
 ## Attribution
 
